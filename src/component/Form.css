@@ -1,0 +1,81 @@
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+
+  .center {
+    background-color: lavender;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+
+  .parent{
+    margin: auto;
+    padding-bottom: 10px;
+    width: 50%;
+    display: table;
+
+  }
+
+  .hlabel
+  {
+    width:25%;
+    float: left;
+    text-align: right;
+  }
+
+  .inputBox
+  {
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  
+  .radiobtn
+  {
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  .w100
+  {
+   
+   width: 100%;
+  }
+
+  .pl15
+  {
+    padding-left: 15px;
+   
+  }
+
+  table, th, td {
+    background-color: rosybrown;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  .p10
+  {
+    padding: 10px;
+  }
+
