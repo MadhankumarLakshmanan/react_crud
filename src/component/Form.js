@@ -36,7 +36,7 @@ class UserForm extends React.Component {
   }
 
   handleSubmit = (event) => {
-     let click=window.confirm("Click ok to submit");
+     let click=window.confirm("Are you sure,you want to continue");
      if(click)
      {
       debugger;
